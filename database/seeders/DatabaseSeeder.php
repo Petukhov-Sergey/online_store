@@ -2,10 +2,13 @@
 
 namespace Database\Seeders;
 
-use App\Models\Product;
-use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Modules\Store\database\seeders\ProductSeeder;
+use Modules\UserAdministration\database\seeders\RoleSeeder;
+use Modules\UserAdministration\database\seeders\UserSeeder;
+use Modules\UserAdministration\Entities\User;
+
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class DatabaseSeeder extends Seeder
 {

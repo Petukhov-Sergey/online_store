@@ -1,0 +1,12 @@
+{
+    "name": "UserAdministration",
+    "alias": "useradministration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserAdministration\\Providers\\UserAdministrationServiceProvider",
+        "Modules\\UserAdministration\\Providers\\Filament\\AdminPanelProvider"
+    ],
+    "files": []
+}
